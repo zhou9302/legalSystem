@@ -1,0 +1,80 @@
+// @import './dark';
+// 设置rem
+@function rem($w){
+    @return $w / 100 + rem;
+}
+
+@mixin wh($w:100%,$h:100%){
+    width: $w;
+    height: $h;
+}
+
+// 垂直居中
+@mixin vertical(){
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+@mixin verticalA(){
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+// 设置背景图片
+@mixin bg($bg){
+    background: url($bg) no-repeat;
+    background-size: 100% 100%;
+}
+
+// 弹窗标题样式
+@mixin windowWrapper($w,$h:90%){
+    position: absolute;
+    top: 4%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: $w;
+    height: $h;
+    background-color: $hoverFont;
+    border-radius: 4px;
+    font-size: rem(16);
+    color: $windowFont;
+    overflow: hidden;
+}
+
+// 没有数据
+.none{
+    font-size: rem(30);
+    text-align: center;
+    line-height: rem(40);
+}
+
+// 分页器
+.el-pagination{
+    position: absolute;
+    right: rem(40);
+    bottom: rem(10);
+}
+
+// before
+@mixin before(){
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+// 文字溢出
+@mixin textOverFlow(){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

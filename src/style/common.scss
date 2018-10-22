@@ -1,0 +1,69 @@
+.conditionBox{
+    overflow: hidden;
+    .btn_blue{
+        background: #5592ee;
+        padding:rem(7) rem(22);
+        color:#ffffff;
+        font-size:rem(14);
+        margin-right:rem(20);
+        cursor: pointer;
+    }
+}
+.tabBox{
+    overflow: hidden;
+    div{
+        padding:rem(7) rem(14);
+        color:#414c65;
+        font-size:rem(14);
+        background: #ebeef1;
+        border-radius: rem(2);
+        float: left;
+        cursor: pointer;
+    }
+    .selTab{
+        background: #5592ee;
+        color:#f8f8f9;
+    }
+}
+.headSearchBox{
+    overflow: hidden;
+    .el-form-item{
+        float: left;
+        margin-right:rem(20);
+        .el-input__inner{
+            height:rem(34);
+        }
+    }
+    .btnBox{
+        background: #5592ee;
+        color:#f8f8f9;
+        font-size:rem(18);
+        float: left;
+        padding:rem(8) rem(22);
+        margin-top:rem(2)
+    }
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.fn{
+    float: none;
+}
+.oh{
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+.w350{
+    width:rem(450);
+}
+.w450{
+    width:rem(450);
+}
+.w550{
+    width:rem(550);
+}

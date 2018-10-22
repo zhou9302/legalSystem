@@ -1,0 +1,61 @@
+//表单表头
+.el-table{
+  .el-table__header-wrapper th {
+    border-right: 0 !important;
+    background: #f9fafd;
+    color:#414c65;
+    font-size:rem(14);
+  }
+  .el-table__row {
+    color:#414c65;
+  }
+  .warning-row {
+    background: #f2f6fe;
+  }
+  .el-button--text{
+    color:#5592ee;
+    font-size:rem(16);
+  }
+}
+.el-form-item__label{
+  color:#414c65;
+}
+.el-input__inner{
+  border: 1px solid #bdc3d4;
+  border-radius: 2px;
+}
+.el-pagination{
+  float: right;
+  position: relative !important;
+  right:0 !important;
+  bottom:0 !important;
+  top:rem(30);
+}
+
+
+.muchFieldTable{
+  .el-table{
+    .el-table__header-wrapper th {
+      border-right: 1px solid rgb(235, 238, 245) !important;
+    }
+  }
+}
+
+
+.fillPage{
+  .el-form-item__label{
+    font-size:rem(16);
+    color:rgb(65, 76, 101);
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", 微软雅黑, Tahoma, Arial, sans-serif;
+    font-weight: 500;
+  }
+}
+.infoForm{
+  .el-form-item__label{
+    font-size:rem(16);
+    color:rgb(65, 76, 101);
+  }
+  .el-input__inner{
+    height:rem(34)
+  }
+}
